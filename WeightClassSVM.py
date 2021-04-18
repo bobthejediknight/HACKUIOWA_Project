@@ -11,11 +11,22 @@ into a numpy array. Then, the SVM model is initialized, fit to the
 training data, and makes predictions on both the training and test
 set. Finally, the results are printed to the terminal.
 
-Below, are two sources that I referred to during the writing of
-this program.
+Instructions:
+First visit "https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html", 
+and click on the "openipf-latest.zip". 
+
+Then unzip the file in your downloads
+folder.
+
+Note: You may have to edits 
+'/Users/antoniomarino/Downloads/openipf-2021-03-09/openipf-2021-03-09-bbf05cdc.csv'
+to the file path of the "openipf-2021-03-09-bbf05cdc.csv" on your computer.
 
 To run this file, navigate to the appropriate directory and
 type python3 WeightClassSVM.py
+
+Below, are two sources that I referred to during the writing of
+this program.
 
 1. https://docs.python.org/3/library/csv.html
 This source is the python documentation on reading and writing
